@@ -24,6 +24,7 @@ public class GitabcApplication {
 		BufferedReader inputStream = new BufferedReader(new InputStreamReader(process.getInputStream()));
 		String line;
 		int exitVal = process.waitFor();
+		System.out.println("added temp sop");
 		System.out
 				.println("========== Final Error Level ===" + errorLevel + "======== Exit Value is =======" + exitVal);
 
